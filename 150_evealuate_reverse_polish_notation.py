@@ -23,7 +23,6 @@ class Solution:
                             stack.append(math.ceil(div))
                         else:
                             stack.append(math.floor(div))
-
         return stack[0]
 
 output = Solution().evalRPN(["10","6","9","3","+","-11","*","/","*","17","+","5","+"])
